@@ -1,0 +1,27 @@
+package com.laptrinhjavaweb.mapper;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.laptrinhjavaweb.model.NewModel;
+
+public class NewMapper implements RowMapper<NewModel> {
+
+	@Override
+	public NewModel mapRow(ResultSet rs) {
+		NewModel newmodel = new NewModel();
+		try {
+			newmodel.setId(rs.getLong("id"));
+			newmodel.setCategory(rs.getLong("categoryid"));
+			newmodel.setTitle(rs.getString("title"));
+			newmodel.setThumbNail(rs.getString("thumbnail"));
+			newmodel.setShortDescription(rs.getString("shortdescription"));
+			newmodel.setContent(rs.getString("content"));
+		} catch (SQLException e) {
+			return null;
+			e.printStackTrace();
+		}
+		return newmodel;
+	}
+
+}

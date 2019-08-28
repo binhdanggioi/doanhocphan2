@@ -1,0 +1,17 @@
+127.0.0.1 - - [26/Aug/2019:09:28:52 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:28:53 +0700] "GET /new-jdbc-12-month-2019/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:29:13 +0700] "GET /new-jdbc-12-month-2019/trang-chu;jsessionid=43B0AB6FF5BB4530AA14A36995C0FDC5 HTTP/1.1" 200 7550
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:29:14 +0700] "GET /new-jdbc-12-month-2019/template/web/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:29:14 +0700] "GET /new-jdbc-12-month-2019/template/web/jquery/jquery.min.js HTTP/1.1" 200 88145
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:29:14 +0700] "GET /favicon.ico HTTP/1.1" 404 1005
+127.0.0.1 - - [26/Aug/2019:09:33:07 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:33:08 +0700] "GET /new-jdbc-12-month-2019/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:33:09 +0700] "GET /new-jdbc-12-month-2019/trang-chu HTTP/1.1" 200 7550
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:34:17 +0700] "GET /new-jdbc-12-month-2019/admin-home HTTP/1.1" 200 7047
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:34:17 +0700] "GET /new-jdbc-12-month-2019/template/paging/jquery.twbsPagination.js HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:34:17 +0700] "GET /new-jdbc-12-month-2019/ckeditor/ckeditor.js HTTP/1.1" 404 1045
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:34:18 +0700] "GET /new-jdbc-12-month-2019/template/paging/jquery.twbsPagination.js HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:34:18 +0700] "GET /new-jdbc-12-month-2019/ckeditor/ckeditor.js HTTP/1.1" 404 1045
+127.0.0.1 - - [26/Aug/2019:09:38:30 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:38:31 +0700] "GET /new-jdbc-12-month-2019/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:09:38:32 +0700] "GET /new-jdbc-12-month-2019/trang-chu HTTP/1.1" 200 7550
